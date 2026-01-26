@@ -92,20 +92,21 @@ These methods provide biological insight into peptide recognition and MHC bindin
  ```
 
 ---
----
+
 
 ## Environment Setup 2
 
 We also performed fine-tuning of **ESM-2.0 protein language models** for peptide immunogenicity prediction using **parameter-efficient fine-tuning (PEFT)** with **LoRA**.  
 This enables effective adaptation of large pretrained protein models while keeping the number of trainable parameters small.
-```bash
+
 ### Model
 
 **Pretrained checkpoint:**
+```bash
 - `facebook/esm2_t33_650M_UR50D`
-
+  ```
 ### Core Libraries
-
+```bash
 - **PyTorch**
 - **Hugging Face Transformers**
   - `AutoTokenizer`
