@@ -42,6 +42,7 @@ Each input sample must include:
     -HLA-DRB5-0101 RFSWGAEGQRPGFGY 0
 
 ### Key Dependencies
+```bash
 - TensorFlow (GPU-enabled recommended)
 - Keras
 - Torch
@@ -50,14 +51,15 @@ Each input sample must include:
 - scikit-learn
 - matplotlib
 - seaborn
-
+ ```
 ---
 
 ## Utilized Versions
+```bash
 - **Python**: 3.11.14  
 - **TensorFlow**: 2.20.0  
 - **Keras**: 3.12.0  
-
+  ```
 
 ---
 ## Model Interpretability
@@ -85,9 +87,8 @@ These methods provide biological insight into peptide recognition and MHC bindin
 ```bash
 - conda create -n deeph-immune python=3.11.14 -y
 - conda activate deeph-immune
-
-- conda install numpy scipy scikit-image -y
 - conda install -c conda-forge keras=3.12.0 tensorflow=2.20.0 -y
+- conda install numpy scipy scikit-image -y
  ```
 
 ---
