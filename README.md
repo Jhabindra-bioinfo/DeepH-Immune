@@ -2,7 +2,7 @@
 **Hybrid Deep Learning Model for Identifying MHC Class II Immunogenic Epitopes Recognized by T Cell Receptors**
 
 DeepH-Immune is a hybrid deep learning framework for predicting **MHC class II peptide immunogenicity** by explicitly modeling peptide–MHC interactions and integrating evolutionary information from protein language models.  
-This repository provides **Python Jupyter notebooks** for training, evaluation, and interpretation of immunogenicity prediction models.
+This repository provides **Python Jupyter notebooks** for training, evaluation, and interpretation.
 
 ---
 
@@ -76,10 +76,11 @@ These methods provide biological insight into peptide recognition and MHC bindin
 ---
 
 ## Applications
-- Cancer neoantigen prioritization  
-- Vaccine epitope discovery  
-- Immunogenicity screening  
-- T-cell epitope analysis  
+- Cancer neoantigen prioritization   
+- pMHC Immunogenicity prediction  
+- Epitope motif
+- Allele clustering
+- Peptide-MHC interaction on the residue level
 
 ---
 
@@ -88,17 +89,15 @@ For questions, issues, or collaboration inquiries, please contact:
 
 📧 **91979@ncc.re.kr**
 
----
-## License
-This project is intended for academic and research use.  
 ## Workflow
 
 <img width="398" height="193" alt="image" src="https://github.com/user-attachments/assets/f0b81e24-5e61-43d5-bf06-19a419b0d7f0" />
 
-**Figure:** Overview of the DeepH-Immune architecture. The model integrates
-sequence-level convolutional encoders, peptide–MHC cross-attention,
-and ESM-2.0 embeddings for immunogenicity prediction.
+**Figure:** Overview of the DeepH-Immune architecture. 
 
+---
+## License
+This project is intended for academic and research use.  
 
 
 
