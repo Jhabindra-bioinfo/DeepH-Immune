@@ -98,16 +98,16 @@ This enables effective adaptation of large pretrained protein models while keepi
 ```bash
 Pretrained checkpoint:
 facebook/esm2_t33_650M_UR50D
-PyTorch
-Hugging Face Transformers
-AutoTokenizer
-EsmForSequenceClassification
-Trainer, TrainingArguments
-EarlyStoppingCallback
-PEFT (LoRA)
-get_peft_model
-LoraConfig
-PeftModel
+-PyTorch
+-Hugging Face Transformers
+  AutoTokenizer
+  EsmForSequenceClassification
+  Trainer, TrainingArguments
+   EarlyStoppingCallback
+   PEFT (LoRA)
+   get_peft_model
+   LoraConfig
+   PeftModel
 ```
 ---
 ## Contact
