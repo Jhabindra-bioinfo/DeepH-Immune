@@ -94,7 +94,7 @@ For questions, issues, or collaboration inquiries, please contact:
 
 ## Workflow
 
-![DeepH-Immune workflow](figures/workflow.png)
+![DeepH-Immune workflow](https://github.com/user-attachments/files/24853922/general_workflow.pdf)
 
 **Figure:** Overview of the DeepH-Immune architecture. The model integrates
 sequence-level convolutional encoders, peptide–MHC cross-attention,
