@@ -15,8 +15,6 @@ DeepH-Immune integrates:
 - **ESM-2.0** protein language model embeddings for evolutionary context  
 - Attention- and gradient-based interpretability  
 
-to achieve accurate and biologically interpretable predictions.
----
 ## Model Interpretability
 DeepH-Immune supports multiple interpretability analyses, including:
 
@@ -27,7 +25,6 @@ DeepH-Immune supports multiple interpretability analyses, including:
 - Allele clustering
 These methods provide biological insight into peptide recognition and MHC binding preferences.
 
----
 
 ## Applications
 - Cancer neoantigen prioritization   
@@ -60,7 +57,7 @@ Each input sample must include:
     Each row represents a peptide–MHC pair with immunogenicity labels (o or 1).
     -HLA-DRB1-0101 KAGVYKLTGAIMHYG 0
     -HLA-DRB5-0101 RFSWGAEGQRPGFGY 0
-
+---
 ### Key Dependencies
 ```bash
 - TensorFlow (GPU-enabled recommended)
@@ -72,7 +69,7 @@ Each input sample must include:
 - matplotlib
 - seaborn
  ```
----
+
 
 ## Utilized Versions
 ```bash
@@ -81,7 +78,7 @@ Each input sample must include:
 - **Keras**: 3.12.0  
   ```
 
-
+---
 
 ## Environment Setup 1
 ```bash
@@ -90,8 +87,6 @@ Each input sample must include:
 - conda install -c conda-forge keras=3.12.0 tensorflow=2.20.0 -y
 - conda install numpy scipy scikit-image -y
  ```
-
----
 
 
 ## Environment Setup 2
