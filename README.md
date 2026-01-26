@@ -92,10 +92,14 @@ For questions, issues, or collaboration inquiries, please contact:
 
 ---
 
-## Citation
-If you use DeepH-Immune in your research, please cite the corresponding publication (to be added upon acceptance/publication).
+## Workflow
 
----
+![DeepH-Immune workflow](figures/workflow.png)
+
+**Figure:** Overview of the DeepH-Immune architecture. The model integrates
+sequence-level convolutional encoders, peptide–MHC cross-attention,
+and ESM-2.0 embeddings for immunogenicity prediction.
+
 
 ## License
 This project is intended for academic and research use.  
