@@ -107,19 +107,19 @@ This enables effective adaptation of large pretrained protein models while keepi
   ```
 ### Core Libraries
 ```bash
-- **PyTorch**
+- PyTorch
 ```
 
 - **Hugging Face Transformers**
  ```bash
-  - `AutoTokenizer`
-  - `EsmForSequenceClassification`
-  - `Trainer`, `TrainingArguments`
-  - `EarlyStoppingCallback`
-- **PEFT (LoRA)**
-  - `get_peft_model`
-  - `LoraConfig`
-  - `PeftModel`
+  - AutoTokenizer
+  - EsmForSequenceClassification
+  - Trainer, TrainingArguments
+  - EarlyStoppingCallback
+- PEFT (LoRA)
+  - get_peft_model
+  - LoraConfig
+  - PeftModel
 ```
 ---
 ## Contact
