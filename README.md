@@ -99,11 +99,12 @@ This enables effective adaptation of large pretrained protein models while keepi
 **Pretrained checkpoint:**
 - link: https://huggingface.co/facebook/esm2_t33_650M_UR50D
 ```bash
-- facebook/esm2_t33_650M_UR50D (link: https://huggingface.co/facebook/esm2_t33_650M_UR50D)
+- facebook/esm2_t33_650M_UR50D 
   ```
 ### Core Libraries
 ```bash
 - PyTorch
+- Tensorflow
 ```
 
 ### Hugging Face Transformers
