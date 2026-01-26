@@ -82,7 +82,7 @@ These methods provide biological insight into peptide recognition and MHC bindin
 ---
 
 ## Environment Setup
-
+```bash
 - conda create -n deeph-immune python=3.11.14 -y
 - conda activate deeph-immune
 
