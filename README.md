@@ -58,7 +58,16 @@ Each input sample must include:
 - **Keras**: 3.12.0  
 
 ---
+# Environment Setup
+conda create -n env_name python=3.11.14 
+conda activate env_name
+conda install scikit-image
+conda install numpy
+conda install -c anaconda scipy
+conda install -c conda-forge keras=3.12.0
+conda install -c conda-forge tensorflow=2.20.0
 
+---
 ## Model Interpretability
 DeepH-Immune supports multiple interpretability analyses, including:
 
