@@ -23,14 +23,12 @@ DeepH-Immune supports multiple interpretability analyses, including:
 - **Integrated Gradients**–based motif discovery
 - Per-allele MHC residue importance mapping
 - Allele clustering
-These methods provide biological insight into peptide recognition and MHC binding preferences.
 
 
 ## Applications
 - Cancer neoantigen prioritization   
 - pMHC Immunogenicity prediction  
 - Epitope motif
-- Allele clustering
 - Peptide-MHC interaction on the residue level
 
 
