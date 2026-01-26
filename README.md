@@ -23,8 +23,8 @@ to achieve accurate and biologically interpretable predictions.
 
 Each input sample must include:
 
-1. **HLA Allele Type**  
-   - Format: `HLA-DRB1-0101`, `HLA-DRB5-0101`, etc.
+1. **HLA (human) \H2 (mouse) Allele Type**  
+   - Format: `HLA-DRB1-0101`, `HLA-DRB5-0101`, H2-IAb, etc.
 
 2. **Peptide Sequence**  
    - Length: **13–15 amino acids**  
@@ -37,7 +37,7 @@ Each input sample must include:
 
 
 ### Example Input Data Format
-    Each row represents a peptide–MHC pair.
+    Each row represents a peptide–MHC pair with immunogenicity labels (o or 1).
     -HLA-DRB1-0101 KAGVYKLTGAIMHYG 0
     -HLA-DRB5-0101 RFSWGAEGQRPGFGY 0
 
@@ -60,8 +60,6 @@ Detailed execution instructions are provided within each Jupyter notebook.
 - **Python**: 3.11.14  
 - **TensorFlow**: 2.20.0  
 - **Keras**: 3.12.0  
-
-> ⚠️ GPU acceleration (CUDA-enabled TensorFlow) is strongly recommended for training.
 
 ---
 
