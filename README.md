@@ -83,21 +83,11 @@ These methods provide biological insight into peptide recognition and MHC bindin
 
 ## Environment Setup
 
-We recommend using **Conda** to ensure reproducibility.
-
-```bash
-# Create environment
 conda create -n deeph-immune python=3.11.14 -y
-
-# Activate environment
 conda activate deeph-immune
 
-# Core scientific libraries
 conda install numpy scipy scikit-image -y
-
-# Deep learning frameworks
 conda install -c conda-forge keras=3.12.0 tensorflow=2.20.0 -y
-
 
 
 ---
