@@ -83,7 +83,7 @@ These methods provide biological insight into peptide recognition and MHC bindin
 
 ---
 
-## Environment Setup
+## Environment Setup 1
 ```bash
 - conda create -n deeph-immune python=3.11.14 -y
 - conda activate deeph-immune
@@ -92,9 +92,24 @@ These methods provide biological insight into peptide recognition and MHC bindin
  ```
 
 ---
-
-
-
+## Environment Setup 2
+We also performd fine-tuning of ESM-2.0 protein language models for peptide immunogenicity prediction using parameter-efficient fine-tuning (PEFT) with LoRA.
+This enables effective adaptation of large pretrained protein models while keeping the number of trainable parameters small.
+```bash
+Pretrained checkpoint:
+facebook/esm2_t33_650M_UR50D
+PyTorch
+Hugging Face Transformers
+AutoTokenizer
+EsmForSequenceClassification
+Trainer, TrainingArguments
+EarlyStoppingCallback
+PEFT (LoRA)
+get_peft_model
+LoraConfig
+PeftModel
+```
+---
 ## Contact
 For questions, issues, or collaboration inquiries, please contact:
 
