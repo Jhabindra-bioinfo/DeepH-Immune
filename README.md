@@ -41,7 +41,8 @@ Each input sample must include:
     
 Each row represents a peptide–MHC pair.
 
----
+-HLA-DRB1-0101 KAGVYKLTGAIMHYG 0
+-HLA-DRB5-0101 RFSWGAEGQRPGFGY 0
 
 ## Repository Structure
 
