@@ -60,6 +60,26 @@ Each input sample must include:
 
 
 ---
+## Model Interpretability
+DeepH-Immune supports multiple interpretability analyses, including:
+
+- Peptide–MHC **cross-attention maps**
+- Residue-level importance visualization
+- **Integrated Gradients**–based motif discovery
+- Per-allele MHC residue importance mapping
+- Allele clustering
+These methods provide biological insight into peptide recognition and MHC binding preferences.
+
+---
+
+## Applications
+- Cancer neoantigen prioritization   
+- pMHC Immunogenicity prediction  
+- Epitope motif
+- Allele clustering
+- Peptide-MHC interaction on the residue level
+
+---
 
 ## Environment Setup
 
@@ -83,26 +103,6 @@ conda install -c conda-forge keras=3.12.0 tensorflow=2.20.0 -y
 ---
 
 
-## Model Interpretability
-DeepH-Immune supports multiple interpretability analyses, including:
-
-- Peptide–MHC **cross-attention maps**
-- Residue-level importance visualization
-- **Integrated Gradients**–based motif discovery
-- Per-allele MHC residue importance mapping
-- Allele clustering
-These methods provide biological insight into peptide recognition and MHC binding preferences.
-
----
-
-## Applications
-- Cancer neoantigen prioritization   
-- pMHC Immunogenicity prediction  
-- Epitope motif
-- Allele clustering
-- Peptide-MHC interaction on the residue level
-
----
 
 ## Contact
 For questions, issues, or collaboration inquiries, please contact:
