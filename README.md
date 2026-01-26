@@ -108,7 +108,10 @@ This enables effective adaptation of large pretrained protein models while keepi
 ### Core Libraries
 ```bash
 - **PyTorch**
+```
+
 - **Hugging Face Transformers**
+ ```bash
   - `AutoTokenizer`
   - `EsmForSequenceClassification`
   - `Trainer`, `TrainingArguments`
