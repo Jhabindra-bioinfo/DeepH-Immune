@@ -41,10 +41,6 @@ Each input sample must include:
     -HLA-DRB1-0101 KAGVYKLTGAIMHYG 0
     -HLA-DRB5-0101 RFSWGAEGQRPGFGY 0
 
-## Dependencies
-
-Detailed execution instructions are provided within each Jupyter notebook.
-
 ### Key Dependencies
 - TensorFlow (GPU-enabled recommended)
 - Keras
@@ -70,7 +66,7 @@ DeepH-Immune supports multiple interpretability analyses, including:
 - Residue-level importance visualization
 - **Integrated Gradients**–based motif discovery
 - Per-allele MHC residue importance mapping
-
+- Allele clustering
 These methods provide biological insight into peptide recognition and MHC binding preferences.
 
 ---
