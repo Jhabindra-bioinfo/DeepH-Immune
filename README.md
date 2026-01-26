@@ -35,18 +35,11 @@ Each input sample must include:
      - `1` → Immunogenic  
      - `0` → Non-immunogenic  
 
----
 
 ### Example Input Data Format
-    
-Each row represents a peptide–MHC pair.
-
--HLA-DRB1-0101 KAGVYKLTGAIMHYG 0
--HLA-DRB5-0101 RFSWGAEGQRPGFGY 0
-
-## Repository Structure
-
----
+    Each row represents a peptide–MHC pair.
+    -HLA-DRB1-0101 KAGVYKLTGAIMHYG 0
+    -HLA-DRB5-0101 RFSWGAEGQRPGFGY 0
 
 ## Dependencies
 
