@@ -110,13 +110,13 @@ This enables effective adaptation of large pretrained protein models while keepi
 - PyTorch
 ```
 
-- **Hugging Face Transformers**
+### Hugging Face Transformers
  ```bash
   - AutoTokenizer
   - EsmForSequenceClassification
   - Trainer, TrainingArguments
   - EarlyStoppingCallback
-- PEFT (LoRA)
+  - PEFT (LoRA)
   - get_peft_model
   - LoraConfig
   - PeftModel
