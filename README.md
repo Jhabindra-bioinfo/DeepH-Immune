@@ -24,7 +24,7 @@ to achieve accurate and biologically interpretable predictions.
 Each input sample must include:
 
 1. **HLA (human) \H2 (mouse) Allele Type**  
-   - Format: `HLA-DRB1-0101`, `HLA-DRB5-0101`,  `H2-IAb`, etc.
+   - `HLA-DRB1-0101`, `HLA-DRB5-0101`,  `H2-IAb`, etc.
 
 2. **Peptide Sequence**  
    - Length: **13–15 amino acids**  
