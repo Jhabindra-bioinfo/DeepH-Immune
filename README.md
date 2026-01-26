@@ -91,7 +91,8 @@ For questions, issues, or collaboration inquiries, please contact:
 📧 **91979@ncc.re.kr**
 
 ---
-
+## License
+This project is intended for academic and research use.  
 ## Workflow
 
 <img width="398" height="193" alt="image" src="https://github.com/user-attachments/assets/f0b81e24-5e61-43d5-bf06-19a419b0d7f0" />
@@ -101,7 +102,5 @@ sequence-level convolutional encoders, peptide–MHC cross-attention,
 and ESM-2.0 embeddings for immunogenicity prediction.
 
 
-## License
-This project is intended for academic and research use.  
-Please contact the authors for licensing or commercial usage inquiries.
+
 
