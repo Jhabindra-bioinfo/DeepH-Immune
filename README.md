@@ -65,16 +65,6 @@ Detailed execution instructions are provided within each Jupyter notebook.
 
 ---
 
-## Usage
-1. Prepare input data following the specified format.
-2. Open the appropriate Jupyter notebook in the `notebooks/` directory.
-3. Configure file paths and hyperparameters as needed.
-4. Run the notebook cells sequentially for training, evaluation, and analysis.
-
-Each notebook contains inline comments explaining the workflow.
-
----
-
 ## Model Interpretability
 DeepH-Immune supports multiple interpretability analyses, including:
 
