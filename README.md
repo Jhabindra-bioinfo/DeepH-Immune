@@ -5,6 +5,9 @@ DeepH-Immune is a hybrid deep learning framework for predicting **MHC class II p
 This repository provides **Python Jupyter notebooks** for training, evaluation, and interpretation.
 
 ---
+## Workflow
+
+<img width="1079" height="385" alt="image" src="https://github.com/user-attachments/assets/256fdf4b-58d3-47fa-9e88-ef1d0cbc3487" />
 
 ## Overview
 Accurate identification of immunogenic peptide–MHC class II complexes is critical for cancer immunotherapy, vaccine development, and immune monitoring.  
@@ -122,9 +125,6 @@ For questions, issues, or collaboration inquiries, please contact:
 
 📧 **jhabindra@ncc.re.kr**
 
-## Workflow
-
-<img width="1079" height="385" alt="image" src="https://github.com/user-attachments/assets/256fdf4b-58d3-47fa-9e88-ef1d0cbc3487" />
 
 
 **Figure:** Overview of the DeepH-Immune architecture. 
