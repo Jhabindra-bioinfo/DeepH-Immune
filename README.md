@@ -124,7 +124,8 @@ For questions, issues, or collaboration inquiries, please contact:
 
 ## Workflow
 
-<img width="398" height="193" alt="image" src="https://github.com/user-attachments/assets/f0b81e24-5e61-43d5-bf06-19a419b0d7f0" />
+<img width="1079" height="385" alt="image" src="https://github.com/user-attachments/assets/256fdf4b-58d3-47fa-9e88-ef1d0cbc3487" />
+
 
 **Figure:** Overview of the DeepH-Immune architecture. 
 
