@@ -1,0 +1,45 @@
+📄 .gitignore
+📄 CHECKLIST_BEFORE_GITHUB.md
+📄 MANIFEST.sha256
+📄 README.md
+📁 data
+  📁 external
+    📄 MHC2_External_dataset_V2_prepared.csv
+    📁 features
+      📄 ESM2_external_row_manifest_v2.csv
+      📄 ESM2_peptide_external_v2.npy
+      📄 Labels_external_v2.npy
+      📄 README.md
+      📄 Sample_ids_external_v2.npy
+  📁 training
+    📄 README.md
+    📄 Training_MHCII_V1_to_V2_12_15_clean.csv
+📁 external_validation
+  📁 __pycache__
+    📄 run_external_validation.cpython-313.pyc
+  📄 run_external_validation.py
+📁 models
+  📄 DeepH_ImmuneV1_fold1.keras
+  📄 DeepH_ImmuneV1_fold2.keras
+  📄 DeepH_ImmuneV1_fold3.keras
+  📄 DeepH_ImmuneV1_fold4.keras
+  📄 DeepH_ImmuneV1_fold5.keras
+📁 notebooks
+  📄 01_Generate_Training_ESM2_Features.ipynb
+  📄 02_Train_DeepH_Immune.ipynb
+  📄 03_External_Validation.ipynb
+📄 requirements_esm2.txt
+📄 requirements_tensorflow.txt
+📁 results
+  📁 cross_validation
+    📄 .gitkeep
+  📁 external_validation
+    📄 .gitkeep
+📁 src
+  📁 __pycache__
+    📄 deeph_immune.cpython-313.pyc
+    📄 extract_esm2.cpython-313.pyc
+    📄 train_deeph_immune.cpython-313.pyc
+  📄 deeph_immune.py
+  📄 extract_esm2.py
+  📄 train_deeph_immune.py

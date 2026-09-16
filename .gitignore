@@ -1,0 +1,18 @@
+# Generated training ESM features
+data/training/esm2_features/
+
+# Generated results
+results/cross_validation/*
+results/external_validation/*
+!results/cross_validation/.gitkeep
+!results/external_validation/.gitkeep
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+~$*
