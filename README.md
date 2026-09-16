@@ -8,7 +8,7 @@ This repository is designed for two reproducibility workflows:
 
 1. **Retrain DeepH-Immune from the released model-ready training table**
    - Training data are provided.
-   - Precomputed training ESM-2 embeddings are intentionally **not** provided.
+   - Precomputed training ESM-2 embeddings are intentionally **not** provided due to large in size. 
    - Users generate training ESM-2 features from the beginning with the supplied extraction script, then run five-fold training.
 
 2. **Reproduce the external validation directly**
