@@ -14,6 +14,4 @@ Expected files:
 
 The external validation script checks alignment before prediction.
 
-## Current packaging note
 
-`ESM2_mhc_external_v2.npy` was **not present in the uploaded ZIP used to build this organized repository**. Add that file here before publishing the repository if you want external validation to run immediately after cloning.
