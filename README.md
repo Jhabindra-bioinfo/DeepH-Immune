@@ -181,23 +181,12 @@ External-validation alignment is checked automatically against:
 
 Do not independently shuffle the CSV and `.npy` files.
 
-## Deliberately omitted
 
-This public reproducibility package intentionally does **not** include:
-
-- upstream preprocessing notebooks/scripts;
-- precomputed training ESM-2 features.
-
-The released training CSV is the final model-ready input table.
-
-## External-validation threshold note
-
-AUROC and AUPRC are threshold-independent. The external-validation script uses a threshold of `0.5` only for descriptive classification/bias diagnostics; it does not optimize a threshold on the external cohort.
 
 ## Environment reproducibility
 
-The uploaded bundle did not contain an exact `pip freeze` or Conda environment export. The included requirement files list the required packages but are not version-pinned. For archival reproducibility, adding the exact package versions from the environment used for the final reported run is recommended.
+
 
 ## License
 
-No software license was included in the supplied study bundle. Add the license approved by your institution before public release.
+
